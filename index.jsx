@@ -380,6 +380,8 @@ export default function App() {
         .spin-slow { animation: spin-slow 20s linear infinite; }
       `}</style>
 
+      <link rel="icon" type="image/jpg" href="./src/logo.jpg" />
+
       {/* NAVBAR */}
       <nav style={{
         position: "fixed", top: 0, left: 0, right: 0,
@@ -405,7 +407,7 @@ export default function App() {
               fontWeight: 700,
               color: "#2d2218",
               letterSpacing: "-0.02em",
-            }}>La Forme</div>
+            }}>Bloom's Cafe</div>
             <div style={{
               fontFamily: "'DM Sans', sans-serif",
               fontSize: "10px",
@@ -813,7 +815,7 @@ export default function App() {
                   fontWeight: 300,
                   marginBottom: "20px",
                 }}>
-                  La Forme began with a single obsession: what if a dessert could be a perfect mirror of its own flavour? Head pâtissière Síle Ní Bhriain spent three years in Lyon mastering both sculpture and pastry before returning to Dublin to open her atelier.
+                  Bloom's Cafe began with a single obsession: what if a dessert could be a perfect mirror of its own flavour? Head pâtissière Síle Ní Bhriain spent three years in Lyon mastering both sculpture and pastry before returning to Dublin to open her atelier.
                 </p>
                 <p style={{
                   fontFamily: "'DM Sans', sans-serif",
@@ -974,7 +976,7 @@ export default function App() {
                   fontFamily: "'Playfair Display', serif",
                   fontSize: "28px", fontWeight: 700, color: "#2d2218",
                   marginBottom: "4px",
-                }}>La Forme</div>
+                }}>Bloom's Cafe</div>
                 <div style={{
                   fontFamily: "'DM Sans', sans-serif",
                   fontSize: "11px", color: "#a07850",
@@ -1046,7 +1048,7 @@ export default function App() {
             <p style={{
               fontFamily: "'DM Sans', sans-serif",
               fontSize: "13px", color: "#a89080", fontWeight: 300,
-            }}>© 2025 La Forme Pâtisserie. Made with love in Dublin.</p>
+            }}>© 2025 Bloom's Cafe Pâtisserie. Made with love in Dublin.</p>
             <div style={{ display: "flex", gap: "24px" }}>
               {["Menu", "Events", "Catering", "Press"].map(l => (
                 <span key={l} style={{
