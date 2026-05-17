@@ -380,8 +380,6 @@ export default function App() {
         .spin-slow { animation: spin-slow 20s linear infinite; }
       `}</style>
 
-      <link rel="icon" type="image/jpg" href="./src/assets/logo.jpg" />
-
       {/* NAVBAR */}
       <nav style={{
         position: "fixed", top: 0, left: 0, right: 0,
